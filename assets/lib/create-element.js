@@ -26,6 +26,7 @@ function createDivContainerElement(className) => {
       <img src="/assets/images/icons/angle-left-icon.svg" alt="icon">
     </div>
     `;
+  return div;
 }
 
 export {createSlideElement, createDivContainerElement}
